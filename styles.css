@@ -70,9 +70,15 @@ body {
 }
 
 /* Headings */
-h1, h2, h3 {
+h2, h3 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #222;
+}
+
+/* Headings */
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ff9292;
 }
 
 /* Paragraph styling */
