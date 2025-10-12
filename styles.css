@@ -60,3 +60,68 @@ img {
   max-width: 300px;
   height: auto;
 }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #fafafa;
+  color: #333;
+  margin: 0;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+/* Paragraph styling */
+p {
+  margin-bottom: 1em;
+}
+
+/* Links inside main content */
+.content a {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+.content a:hover {
+  color: #004a99;
+}
+
+/* Lists */
+ul {
+  padding-left: 20px;
+}
+
+/* Form elements */
+input[type="text"], textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Buttons */
+input[type="submit"], button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+  background-color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
