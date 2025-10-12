@@ -16,23 +16,33 @@
     </ul>
   </nav>
 </header>
- <h2>Contact Me</h2>
-  <p>Fill out the form below to get in touch.</p>
-   <form name="contact" method="POST" data-netlify="true">
-    <input type="hidden" name="form-name" value="contact"/>
-    <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name"><br>
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email"><br>
-    <label for="reason">Reason for Contact:</label><br>
-    <select id="reason" name="reason">
-      <option value="hi">Saying hi</option>
-      <option value="contractor">Looking for a contractor</option>
-      <option value="interview">Interested in an interview</option>
-    </select><br>
-    <label for="message">Message:</label><br>
-    <textarea id="message" name="message" rows="6" cols="50"></textarea><br>
-    <input type="submit" value="Send">
-  </form>    
+<div class="container">
+    <aside class="sidebar">
+      <h3>Sidebar</h3>
+      <p>Recent posts, links, or anything you want here.</p>
+    </aside>
+
+    <main class="content">
+      <h2>Contact Me</h2>
+      <p>Fill out the form below to get in touch.</p>
+
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact" />
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="reason">Reason for Contact:</label><br>
+        <select id="reason" name="reason">
+          <option value="hi">Saying hi</option>
+          <option value="contractor">Looking for a contractor</option>
+          <option value="interview">Interested in an interview</option>
+        </select><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="6" cols="50"></textarea><br>
+        <input type="submit" value="Send">
+      </form>
+    </main>
+  </div>  
 </body>
 </html>
